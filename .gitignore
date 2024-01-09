@@ -19,3 +19,17 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+src/main/k8s/overlays
+gcloud*.json
+
+# Ignore Gradle project-specific cache directory
+.gradle
+.ipynb_checkpoints
+
+# Ignore Gradle build output directory
+build
+builds
+*.log
+.idea
+.python-version
